@@ -1,0 +1,22 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f2f4f7;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background: linear-gradient(to bottom, #0d7a38, #1a472a);
+  color: white;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f9fafc;
+  overflow-y: auto;
+}

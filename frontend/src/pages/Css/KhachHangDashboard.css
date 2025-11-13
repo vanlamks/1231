@@ -1,0 +1,91 @@
+.khachhang-container {
+  background: linear-gradient(to bottom right, #e6f2ff, #fff0f5);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.section-box {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+/* 🟢 Lưới form 2 cột đều nhau */
+.form-grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 15px 20px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form-grid label {
+  font-weight: 600;
+  text-align: right;
+  padding-right: 10px;
+  color: #333;
+}
+
+.form-grid input,
+.form-grid textarea,
+.form-grid select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+/* Nút lưu */
+.save-btn {
+  background: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.save-btn:hover {
+  background: #ff5722;
+}
+
+/* Tiêu đề và tab */
+.menu-tabs {
+  display: flex;
+  gap: 8px;
+  background: #f44336;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.menu-tabs button {
+  background: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-tabs .active {
+  background: #ff7f50;
+  color: white;
+}
+
+.logout-btn {
+  margin-left: auto;
+  background: #d32f2f !important;
+  color: white;
+}
